@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            background: red;
+            animation-name: x;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+        .box2 {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            animation-name: x;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-delay: 2s;
+            opacity: 0;
+        }
+        @keyframes x {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+    <!-- 
+        1. Trang web trắng, 
+        sau 1s hiện 1 hình vuông đỏ, 
+        sau 2s thì hiện thêm 1 hình vuông xanh 
+        opacity: 1 = hiện;
+        opacity: 0 = ẩn;
+     -->
+</body>
+</html>

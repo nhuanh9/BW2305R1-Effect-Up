@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out {
+            margin: 100px;
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background: blue;
+            transition: 1s;
+        }
+
+        .out:hover .box {
+            transform: rotate(360deg) translateX(300px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="out">
+        <div class="box">
+        </div>
+    </div>
+    <!-- 
+        1 div w:200, h:200, border 1px solid, màu đen. Khi hover lên:
+        - có 1 dòng chữ từ dưới đi lên trong 0.5s
+     -->
+</body>
+</html>

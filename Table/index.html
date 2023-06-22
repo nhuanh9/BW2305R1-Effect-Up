@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        table: thẻ chú thích phần bên trong là bảng
+        -> tr (table row): thẻ chú thích phần bên trong là hàng
+        -> td (table data): thẻ chú thích phần bên trong là ô
+        -> th (table head): thẻ chú thích phần bên trong là tiêu đề
+     -->
+     <!-- 
+        colspan: thuộc tính của td, quy định 1 td có độ rộng = n*td
+        rowspan: thuộc tính của td, quy định 1 td có độ cao = n*td
+      -->
+    <table border="1" style="border-collapse: collapse; width: 400px; height: 200px;">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td rowspan="2" colspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
